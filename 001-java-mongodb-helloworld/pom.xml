@@ -3,4 +3,20 @@
   <groupId>com.reva.java.mongodb</groupId>
   <artifactId>001-java-mongodb-helloworld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.mongodb/mongo-java-driver -->
+	<dependency>
+	    <groupId>org.mongodb</groupId>
+	    <artifactId>mongo-java-driver</artifactId>
+	    <version>3.5.0</version>
+	</dependency>
+  
+  </dependencies>
 </project>
